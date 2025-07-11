@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>우리 가족의 추억 공간</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Noto Sans KR', sans-serif;
+      background-color: #FFF8F0;
+      color: #333;
+    }
+
+    header {
+      background-color: #FF6F61;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    #hero {
+      background: url('https://via.placeholder.com/1200x400?text=가족사진') no-repeat center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      font-size: 1.5em;
+      flex-direction: column;
+      padding: 20px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      border-bottom: 2px solid #FF6F61;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      color: #6B705C;
+    }
+
+    .members, .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .members div, .gallery div {
+      flex: 1 1 200px;
+      text-align: center;
+    }
+
+    .members img, .gallery img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    footer {
+      background-color: #6B705C;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>우리 가족의 추억 공간</h1>
+    <nav>
+      <a href="#intro">가족 소개</a>
+      <a href="#album">사진 앨범</a>
+      <a href="#calendar">가족 일정</a>
+      <a href="#travel">여행 기록</a>
+      <a href="#guestbook">방명록</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>사랑으로 이어진 우리 가족</h2>
+    <p>함께한 시간들을 이곳에 담았습니다.</p>
+  </section>
+
+  <section id="intro">
+    <h2>우리 가족 소개</h2>
+    <div class="members">
+      <div>
+        <img src="https://via.placeholder.com/200x200?text=아빠" alt="아빠">
+        <p>아빠 - 든든한 기둥</p>
+      </div>
+      <div>
+        <img src="https://via.placeholder.com/200x200?text=엄마" alt="엄마">
+        <p>엄마 - 사랑의 중심</p>
+      </div>
+      <div>
+        <img src="https://via.placeholder.com/200x200?text=자녀" alt="자녀">
+        <p>자녀 - 웃음의 원천</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="album">
+    <h2>가족 추억 앨범</h2>
+    <div class="gallery">
+      <div><img src="https://via.placeholder.com/300x200?text=여행1" alt="여행1"></div>
+      <div><img src="https://via.placeholder.com/300x200?text=소풍" alt="소풍"></div>
+      <div><img src="https://via.placeholder.com/300x200?text=기념일" alt="기념일"></div>
+    </div>
+  </section>
+
+  <section id="calendar">
+    <h2>다가오는 가족 일정</h2>
+    <ul>
+      <li>🗓️ 8월 1일 - 부모님 결혼기념일</li>
+      <li>🎂 9월 15일 - 아들 생일</li>
+      <li>🏖️ 10월 3일 - 가족 여행 (제주도)</li>
+    </ul>
+  </section>
+
+  <section id="travel">
+    <h2>가족 여행 기록</h2>
+    <p>강릉 바다의 파도, 전주 한옥마을의 골목길, 제주 오름의 바람... 우리의 추억이 머문 곳들입니다.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 by 박가네 Family. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
